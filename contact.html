@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+
+    <link rel="stylesheet" href="style_global.css">
+    <link rel="stylesheet" href="style_contact.css">
+
+    <link href="https://db.onlinewebfonts.com/c/f21923cb0f60b46d41a66875255790b3?family=Neue+Haas+Grotesk+Display+Pro+65+Medium" rel="stylesheet">
+    <link href="https://db.onlinewebfonts.com/c/952bab25f6798d6bb1937d67e9bee4dd?family=Sans" rel="stylesheet">
+    <link href="https://db.onlinewebfonts.com/c/fec155cce795974785e5f5bf18b54ffa?family=zai+Olivetti+Lettera+22+Typewriter" rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="/JSI-favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/JSI-favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/JSI-favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/JSI-favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Just Shoot It" />
+
+    <script defer src="contact.js"></script>
+</head>
+
+<body>
+
+<div class="header">
+    <div class="logo">
+        <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+    </div>
+    <ul class="menu">
+        <li id="home"><a href="index.html">Home</a></li> <!-- display none-->
+        <li><a href="gallery.html">Gallery</a></li> <!--map in gallery-->
+        <li id="about"><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li> <!--about in contact-->
+    </ul>
+
+    <div class="map">
+        <a href="justshootshot.html"><img src="images/just_shoot-shots.png" alt="map"></a>
+    </div>
+</div>
+
+<img class="imm" src="images/phone.png" alt="telephone">
+
+<p class="testo">
+    Contact
+</p>
+
+<h1>Get in touch</h1>
+
+<div class="formimg">
+    <img class="imm2" src="images/contactimg.png" alt="contactImg">
+    <form id="modulo" action="form.html" method="POST" name="modulo">
+        <label for="fname">First name:</label><br><br>
+        <input class="input" type="text" id="fname" name="fname" minlength="3" maxlength="20" placeholder="John" autofocus required><br><br>
+        <label for="lname">Last name:</label><br><br>
+        <input class="input" type="text" id="lname" name="lname" minlength="3" maxlength="20" placeholder="Smith" required>
+        <br><br>
+        <label for="email">E-mail:</label><br><br>
+        <input class="input" autocomplete="email" type="email" id="email" name="email" minlength="3" placeholder="name@domain.com" required><br><br>
+        <label for="message">Message:</label><br><br>
+        <textarea class="input" id="message" name="message" rows="4" cols="40" placeholder="Type here your message... I would be happy to read you :)" required></textarea>
+        <br><br>
+        <input type="submit" value="Submit" id="send">
+    </form>
+</div>
+
+
+<div id="cont">
+
+</div>
+
+<h1>Mail: c.denegri@studenti.unipi.it</h1>
+
+<footer class="footer">
+    <p>All content Copyright 2026, PPW Project "Just Shoot It!©" by Carolina Denegri 711448</p>
+</footer>
+
+</body>
+</html>

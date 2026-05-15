@@ -1,0 +1,194 @@
+body{
+   /* background-color: rgba(255, 230, 185, 0.98);*/
+    background-color: #ffecc4;
+    margin: 0;
+    font-family: "Neue Haas Grotesk Display Pro 65 Medium", Sans, sans-serif;
+    display: block;
+}
+
+/* Header */
+.header{
+    text-align: end;
+    padding: 5px;
+    margin: 35px;
+    display: flex;
+    /*border-bottom: 2px solid darkorange;*/
+    background-image: url('images/backgroundfilm.png');
+    background-size: contain;
+    background-attachment: scroll;
+    background-repeat: repeat-x;
+}
+
+.menu li a:hover{
+    transform: translate(2px, -2px);
+    color: #2f57b6;
+    /*color: rgba(236, 43, 43, 0.89);*/
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.header .logo img{
+    width: 60px;
+    height: auto;
+    align-items: center;
+    margin: 21px;
+    padding-top: 8px;
+}
+
+.map img:hover{
+    transform: translate(0px, -2px);
+}
+
+.menu{
+    width: 100%;
+    padding-top: 8px;
+}
+
+.map img{
+    margin: 15px;
+    padding-top: 15px;
+    width: 78px;
+    align-items: center;
+    padding-right: 30px;
+    height: auto;
+    transform: rotate(10deg);
+}
+
+.evidenzia{
+    background-color: rgba(174, 255, 97, 0.82);
+}
+.giallo{
+    color: #f8c626;
+}
+.menu li{
+    display: inline-block;
+    padding: 20px;
+}
+
+.menu li a{
+    background-image: url('images/washi.png');
+    background-size: cover;
+    background-position: center;
+    font-size: 21px;
+    padding:7px 10px;
+    display: block;
+    text-decoration: none;
+    color: #a3693f;
+}
+
+p{
+    font-size: 45px;
+    color: #2f57b6 /*#2EA637/*#ffddc2*/;
+    margin: 34px;
+    padding: 10px;
+    text-align: right;
+}
+
+.footer p{
+    font-size: 19px;
+    margin-left: 34px;
+    padding: 10px;
+    text-align: center;
+}
+
+{
+    border: 2px solid black;
+}
+
+/*media query paragrafi*/
+
+@media only screen and (min-device-width: 1750px){
+    p{
+        font-size: 45px;
+        margin: 34px;
+        padding: 10px;
+        text-align: right;
+    }
+    .menu li a{
+        font-size: 26px;
+    }
+}
+
+@media only screen and (min-device-width: 1160px) and (max-device-width: 1460px){
+    p{
+        font-size: 40px;
+        margin: 34px;
+        padding: 10px;
+        text-align: right;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1160px){
+    p{
+        font-size: 35px;
+        margin: 34px;
+        padding: 10px;
+        text-align: right;
+    }
+    .menu li a{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-device-width: 284px) and (max-device-width: 768px){
+    p{
+        font-size: 30px;
+        margin: 34px;
+        padding: 10px;
+        text-align: right;
+    }
+    .menu li a{
+        font-size: 20px;
+        text-align: center;
+    }
+    /*.map img{*/
+    /*    display: none;*/
+    /*}*/
+    /*#home a{*/
+    /*    display: none;*/
+    /*}*/
+    menu{
+        text-size-adjust: auto;
+    }
+    .footer p , .menu{
+        font-size: 25px;
+    }
+    .logo, .map{
+        padding-top: 10px;
+        height: 90%;
+        width: auto;
+    }
+    .testo{
+        font-size: 50px;
+    }
+}
+
+@media screen and (min-device-width: 1px) and (max-device-width: 284px){
+    p{
+        font-size: 25px;
+        margin: 34px;
+        padding: 10px;
+        text-align: right;
+    }
+    .menu li a{
+        font-size: 16px;
+        text-align: center;
+    }
+    /*.menu li #about a{*/
+    /*    display: none;*/
+    /*}*/
+    .footer p , .menu{
+        font-size: 25px;
+    }
+    .logo, .map{
+        padding-top: 10px;
+        height: 90%;
+        width: auto;
+    }
+    .testo{
+        font-size: 55px;
+    }
+}

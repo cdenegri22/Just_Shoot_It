@@ -1,0 +1,70 @@
+/*specifiche map*/
+
+body{
+    background-color: black;
+    font-family: "zai Olivetti Lettera 22 Typewriter", Sans, sans-serif;
+}
+
+.header{
+    background-image: none;
+}
+
+h1{
+    color: #2f57b6;
+    text-align: left;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+h2{
+    color: #cccccc;
+    font-size: 33px;
+    font-weight: lighter;
+    text-align: end;
+}
+
+.testo{
+    padding: 0 28px 0 28px;
+    margin: 0 35px 0 35px;
+}
+
+.galleria{
+    margin: 0 30px 0 30px;
+    padding: 28px;
+}
+
+.galleria img{
+    margin: 5px;
+}
+
+.giall{
+    background-color: #f8c626;
+}
+
+@media screen and (min-device-width: 426px) and (max-device-width: 747px) {
+    h1{
+        font-size: 55px;
+    }
+    h2{
+        font-size: 38px;
+    }
+}
+
+
+@media screen and (min-device-width: 284px) and (max-device-width: 426px) {
+    h1{
+        font-size: 60px;
+    }
+    h2{
+        font-size: 43px;
+    }
+}
+
+@media screen and (min-device-width: 1px) and (max-device-width: 284px) {
+    h1{
+        font-size: 65px;
+    }
+    h2{
+        font-size: 48px;
+    }
+}

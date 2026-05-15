@@ -1,0 +1,22 @@
+.button{
+    margin: 35px;
+    background-color: #f3d420;
+    color: #2f57b6;
+    border-radius: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: "Neue Haas Grotesk Display Pro 65 Medium", Sans, sans-serif;
+    box-shadow: 0 9px #999;
+}
+
+a{
+    text-decoration: none;
+}
+
+.button:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
