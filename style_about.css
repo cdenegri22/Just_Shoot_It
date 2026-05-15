@@ -1,0 +1,170 @@
+/*specifiche about*/
+
+p, .list{
+    font-family: "zai Olivetti Lettera 22 Typewriter", Sans, sans-serif;
+    font-size: 45px;
+    padding: 0 10px 10px 5px;
+    margin:30px;
+    color: #2f57b6;
+}
+
+h1{
+    text-align: right;
+    font-size: 35px;
+    margin: 30px;
+    padding: 10px;
+    background-color: #f3d420;
+    /*text-indent: 80px;*/
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-weight: normal;
+}
+
+.jsi{
+    font-family: "zai Olivetti Lettera 22 Typewriter", Sans, sans-serif;
+    font-size: 34px;
+    color: #2f57b6;
+}
+
+.imm{
+    float: left;
+    transform: rotate(-15deg);
+    width: 180px;
+    height: auto;
+    margin: 45px;
+}
+
+.imm1{
+    float: left;
+    transform: rotate(-15deg);
+    width: 210px;
+    height: auto;
+    margin: 15px;
+}
+
+.imm2{
+    float: right;
+    transform: rotate(35deg);
+    width: 190px;
+    height: auto;
+    margin: 25px;
+}
+
+.imm3{
+    float: right;
+    width: 190px;
+    transform: rotate(12deg);
+    height: auto;
+    margin: 5px;
+}
+
+.imm4{
+    float: left;
+    width: 140px;
+    height: auto;
+    margin: 5px;
+    padding-right: 20px;
+}
+
+.imm5{
+    float: left;
+    transform: rotate(15deg);
+    width: 210px;
+    height: auto;
+    margin: 15px;
+}
+
+.cont{
+    margin-left: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+    height: auto;
+    float: left;
+}
+
+h2{
+    text-align: end;
+    font-family: 'Neue Haas Grotesk Display Pro 65 Medium', sans-serif;
+    font-size: 28px;
+    margin: 30px;
+    background-color: #f6a11f;
+    padding: 3px 60px 3px 3px;
+    font-weight: normal;
+}
+
+.par{
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    margin: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.list{
+    font-family: 'Inter', sans-serif;
+    margin: 5px 35px 5px 5px;
+    padding: 5px;
+    text-align: end;
+    font-size: 20px;
+    list-style-position: inside;
+}
+
+.par2{
+    font-size: 25px;
+    font-family: 'Neue Haas Grotesk Display Pro 65 Medium', sans-serif;
+    /*background-color: rgba(173, 216, 230, 0.89);*/
+    padding: 15px;
+    text-align: end;
+    /*border-radius: 10px;*/
+}
+
+@media screen and (min-device-width: 426px) and (max-device-width: 747px) {
+    .par, .list{
+        font-size: 25px;
+    }
+    .par2{
+        font-size: 30px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 33px;
+    }
+}
+
+
+@media screen and (min-device-width: 284px) and (max-device-width: 426px) {
+    .par, .list{
+        font-size: 30px;
+    }
+    .par2{
+        font-size: 35px;
+    }
+    h1{
+        font-size: 45px;
+    }
+    h2{
+        font-size: 38px;
+    }
+}
+
+@media screen and (min-device-width: 1px) and (max-device-width: 284px) {
+    .par, .list{
+        font-size: 35px;
+    }
+    .par2{
+        font-size: 40px;
+    }
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 43px;
+    }
+    .testo{
+        font-size: 60px;
+    }
+}
